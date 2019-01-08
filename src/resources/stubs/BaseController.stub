@@ -1,0 +1,23 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use App\Models\{{modelName}};
+use Illuminate\Support\Facades\Validator;
+
+class {{modelName}}Controller extends BaseController
+{
+    public function __construct()
+    {
+        $this->model = new {{modelName}}();
+        $this->sort_hidden = [];
+        /*$this->relation = [
+        'table' => [
+                'columns' => '', //colonna da visualizzare
+                'relationship' => '', //tipo di relazione
+            ],
+        ];*/
+        //$this->has_relation = TRUE;
+    }
+
+}

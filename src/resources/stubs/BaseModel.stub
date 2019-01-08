@@ -1,0 +1,19 @@
+<?php
+
+namespace App\Models;
+
+class {{modelName}} extends BaseModel
+{
+    protected $table = '{{table}}';
+    protected $fillable = [];
+    protected $hidden = [];
+    protected $info_fillable = [
+        "value" => [
+                'value' => '',
+                'type' => '',
+                'all_values' => '',
+                'default' => ''
+        ],
+    ];
+    protected $fields = [];
+}

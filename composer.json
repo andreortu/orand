@@ -1,0 +1,12 @@
+{
+    "name": "orand/aocrudgenerator",
+    "description": "A Crud Generator For Laravel",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+    	"psr-4": {
+    		"Orand\\aocrudgenerator\\": "src/"
+    	}
+    }
+}
