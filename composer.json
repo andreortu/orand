@@ -14,4 +14,9 @@
     },
     "keywords": ["laravel"],
     "version": "1.0.0",
+    "scripts": {
+        "post-install-cmd": [
+            "php -r \"copy('vendor/orand/aocrudgenerator/helpers.php', 'helpers.php');\""
+        ]
+    }
 }
